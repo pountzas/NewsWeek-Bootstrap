@@ -1,7 +1,7 @@
 ## Project 3 Microverse
-# NEED to FIX!!!!!!!!!!!!!!!!!!!!!
-> Project 2: Building with responsive design.
-  This is a clone of the TheNextWeb archived by Perma.cc. In this project we used flexbox, float and grid for positioning elements and build with responsive design.
+
+# Footer and Header of Newsweek website
+> This is a clone of the TheNextWeb archived by Perma.cc. In this project we used flexbox, float and grid for positioning elements and build with responsive design.
 
 ![screenshot](./images/app.screenshot.png)
 
@@ -9,6 +9,10 @@
 
 - Html
 - CSS
+- Bootstrap
+- Fontawesome
+- Windows
+- Linux
 
 ## Live Demo
 
