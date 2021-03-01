@@ -1,9 +1,7 @@
 ## Project 3 Microverse
 
 # Footer and Header of Newsweek website
-> This is a clone of the TheNextWeb archived by Perma.cc. In this project we used flexbox, float and grid for positioning elements and build with responsive design.
-
-![screenshot](./images/app.screenshot.png)
+> This is a clone of the Newsweek archived by Webarchive. In this project we used bootstrap, flex, and fontawesome.
 
 ## Built With
 
@@ -19,7 +17,9 @@
 [Live Demo Link](https://pountzas.github.io/Project-2-Building-with-Responsive-Design/)
 
 To get a local copy up and running follow these simple example steps.
+
 ### Setup
+
 - open your Terminal, go to the desired folder and write the following commands
 
 - git init
