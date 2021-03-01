@@ -25,11 +25,17 @@ To get a local copy up and running follow these simple example steps.
 - git init
 - git clone https://github.com/pountzas/Project-2-Building-with-Responsive-Design.git review
 
-👤 **Authors**
+👤 **Nikos Pountzas**
 
 - GitHub: [@pountzas](https://github.com/pountzas)
 - Twitter: [@pountzas20](https://twitter.com/pountzas20)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nikos-pountzas-173ba4a8/)
+
+👤 **Arthur Borges**
+
+- GitHub: [@pountzas](https://github.com/arthurborgesdev)
+- Twitter: [@pountzas20](https://twitter.com/arthurmoises)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/arthurmoises/)
 
 ## 🤝 Contributing
 
@@ -40,6 +46,8 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+MIT
