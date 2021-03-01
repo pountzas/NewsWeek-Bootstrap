@@ -30,3 +30,11 @@
 .fa-linkedin-in:hover {
   color: #0072b1;
 }
+
+.links {
+  color: #666;
+}
+
+.links:hover {
+  color: black;
+}
