@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://pountzas.github.io/Project-2-Building-with-Responsive-Design/)
+[Live Demo Link](https://pountzas.github.io/Project-3-using-Bootstrap/)
 
 To get a local copy up and running follow these simple example steps.
 
