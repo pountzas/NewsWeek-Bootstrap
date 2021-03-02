@@ -1,0 +1,44 @@
+.footer-logo {
+  width: 20rem;
+  fill: #f72210;
+}
+
+header nav div {
+  background-color: #f72210;
+}
+
+.fa-facebook-square,
+.fa-twitter,
+.fa-instagram,
+.fa-tumblr,
+.fa-linkedin-in {
+  color: #666;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #8a3ab9;
+}
+
+.fa-tumblr:hover {
+  color: #34526f;
+}
+
+.fa-linkedin-in:hover {
+  color: #0072b1;
+}
+
+.links {
+  color: #666;
+}
+
+.links:hover {
+  color: black;
+}
