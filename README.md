@@ -33,15 +33,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Arthur Borges**
 
-- GitHub: [@pountzas](https://github.com/arthurborgesdev)
-- Twitter: [@pountzas20](https://twitter.com/arthurmoises)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/arthurmoises/)
+- GitHub: [@arthurborgesdev](https://github.com/arthurborgesdev)
+- Twitter: [@arthurmoises](https://twitter.com/arthurmoises)
+- LinkedIn: [Arthur Borges](https://www.linkedin.com/in/arthurmoises/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/pountzas/Project-3-using-Bootstrap/issues).
 
 ## Show your support
 
