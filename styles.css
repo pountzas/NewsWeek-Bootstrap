@@ -42,3 +42,8 @@ header nav div {
 .links:hover {
   color: black;
 }
+
+.img-small-logo {
+  width: 29px;
+  height: 28px;
+}
