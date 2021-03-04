@@ -48,6 +48,12 @@ header nav div {
   height: 28px;
 }
 
+.newsletter-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
 main {
   margin-top: 80px;
 }
