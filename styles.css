@@ -47,3 +47,14 @@ header nav div {
   width: 29px;
   height: 28px;
 }
+
+main {
+  margin-top: 80px;
+}
+
+@media (min-width: 1024px) {
+  main {
+    margin-top: 200px;
+  }
+}
+
