@@ -70,4 +70,8 @@ main {
   main {
     margin-top: 200px;
   }
+
+  .newsletter-img {
+    height: 350px;
+  }
 }
