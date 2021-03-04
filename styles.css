@@ -58,6 +58,14 @@ main {
   margin-top: 80px;
 }
 
+@media (min-width: 768px) {
+  .newsletter-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+}
+
 @media (min-width: 1024px) {
   main {
     margin-top: 200px;
