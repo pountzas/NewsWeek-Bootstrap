@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="container-md">
-      <nav class="fixed-top bg-white">
+      <nav class="nav-bar-unique fixed-top bg-white">
         <div class=" d-flex justify-content-lg-between align-items-end mx-lg-auto">
           <div class="d-lg-flex d-none float-start">
             <p class="pt-5 text-white text-nowrap ">Wed, Jan 20, 2021</p>
@@ -38,46 +38,48 @@
             <div><i class="d-lg-none fas fa-bars m-2 text-white-50 mb-4"></i></div>
           </div>
         </div>
-    
-        <ul class="list-unstyled bg-white text-nowrap fw-bold mt-2 d-none d-lg-flex justify-content-evenly">
-          <li class="border-end border-2 border-light px-1">
-            <a class="text-dark text-decoration-none" href="#">U.S.</a>
-          </li>
-          <li class="border-end border-2 border-light px-1">
-            <a class="text-dark text-decoration-none" href="#">World</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Business</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Tech & Science</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Culture</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Newsgeek</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Sports</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Health</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">The Debate</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Vantage</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Weather</a>
-          </li>
-          <li class="fw-normal">
-            <input class="" type="text" placeholder="Search">
-            <i class="fas fa-search"></i>
-          </li>
-        </ul>
+        
+        <div class="col-11 bg-white">
+          <ul class="list-unstyled bg-white text-nowrap fw-bold mt-2 d-none d-lg-flex justify-content-evenly">
+            <li class="border-end border-2 border-light ps-5">
+              <a class="text-dark text-decoration-none" href="#">U.S.</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">World</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Business</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Tech & Science</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Culture</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Newsgeek</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Sports</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Health</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">The Debate</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Vantage</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Weather</a>
+            </li>
+            <li class="fw-normal">
+              <input class="" type="text" placeholder="Search">
+              <i class="fas fa-search"></i>
+            </li>
+          </ul>
+        </div>
         
         <ul class="justify-content-evenly list-unstyled bg-white text-nowrap fw-bold p-2 border-top border-bottom border-2 border-light d-none d-lg-flex">
           <li>TRENDING</li>
@@ -92,7 +94,8 @@
       </nav>
     </header>
 
-    <main class="container-md">
+      
+    <main class="">
       <section class="row">
         <section class="column1 col-12 col-md-5 col-lg-3 pt-2">
           <article class="top-story d-md-none">
@@ -928,7 +931,7 @@
                   <img class="float-start w-25 bg-danger m-2" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="newsweek icon">
                   <h3 class="fs-6 text-align-center pt-3">START YOUR DAY WITH OUR TOP 5 ARTICLES</h3>
                 </div>
-                <input class="w-100 mb-2" placeholder="Email address">
+                <input class="w-100 mb-2" type="email" placeholder="Email address">
                 <input class="w-100 bg-danger text-light" type="button" value="FREE SIGN UP >">
               </form>
             </article>
@@ -983,7 +986,7 @@
           </section>
         </section>
         <section class="">
-          <div class="in-the-magazine row d-flex pt-4 pb-3">
+          <div class="row d-flex pt-4 pb-3">
             <div class="text-center d-flex justify-content-center border-md-bottom mx-2">
               <img class="img-small-logo bg-danger me-2" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="small-logo">
               <h2 class="fs-5 ">IN THE MAGAZINE</h2>
@@ -1285,7 +1288,7 @@
             </article>
           </div>
         </section>
-        <section>
+        <section class="">
           <section class="border-top py-4">
             <a class="text-decoration-none" href="#">
               <h4 class="text-danger">U.S.</h4>
@@ -1771,21 +1774,20 @@
           </section>
         </section>
       </section>
-      <section>
-        <div class="d-md-flex flex-md-column mb-3">
+        <div class="sub-new d-md-flex flex-md-column mb-3">
           <div class="col-md-12 d-lg-flex">
             
             <div class="d-md-flex flex-column">
               <h3 class="text-danger fw-bold my-3 fs-6">SUBSCRIBE</h3>
-              <div class="col-12  col-lg-10 bg-light d-md-flex">
+              <div class="col-12 col-lg-10 bg-light d-md-flex">
                 <div class="position-relative">
                   <div class="text-center pt-4 ps-3">
                     <img class="position-absolute ms-4 mt-4 " src="https://web.archive.org/web/20210122003009im_/https://d.newsweek.com/en/full/1704591/cover-january-22-2021.jpg?w=170&q=95&f=ee95940a99c02547a13c42e35dbfbc84" alt="previous-cover">
                     <img class=" top-0" src="https://web.archive.org/web/20210115135144im_/https://d.newsweek.com/en/full/1700315/january-15-2021-cover.jpg?w=170&q=95&f=02cc1a3558f7d7b001baea3b926907e7" alt="last-cover">
                   </div>
                 </div>
-                <div class="d-flex flex-column px-5 pb-5 align-items-center align-items-md-start">
-                  <p class="pt-5 card-title pb-3 pe-4 fw-bold text-center text-md-start ">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
+                <div class="d-flex flex-column ps-5 pb-5 align-items-center align-items-md-start gu">
+                  <p class="pt-5 card-title pb-3 pe-md-3 fw-bold text-center text-md-start ">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
                   <p class="text-center text-md-start pb-3">All Access + Weekly Delivery. <br>
                     Choose A Membership That's Perfect for You!
                   </p>
@@ -1802,7 +1804,7 @@
                   <p class="pt-2 card-title px-2 fs-6 fw-bold text-center text-lg-start">THE STARTING 5</p>
                   <p class="text-center text-lg-start">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
                   <form class="d-flex flex-lg-column" action="/action" method="POST">
-                    <input class="w-100 mb-2" placeholder="Email address">
+                    <input class="w-100 mb-2" type="email" placeholder="Email address">
                     <input class="w-100 h-75 bg-danger text-light" type="button" value="FREE SIGN UP >">
                   </form>
                 </div>
@@ -1813,10 +1815,10 @@
       </section>
     </main>
 
-    <footer class="px-2 py-2 pt-md-4 border-top container-md">
-      <div class="d-flex flex-column flex-md-row ps-2 pb-2 border-bottom">
+    <footer class="py-2 pt-md-4 border-top container-md">
+      <div class="d-flex flex-column flex-md-row  pb-2 border-bottom">
         <a href="#">
-          <svg class="footer-logo pl-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+          <svg class="footer-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
             <g>
               <path 
                 class="st0" 
@@ -1825,7 +1827,7 @@
             </g>
           </svg>
         </a>
-        <div class="d-md-flex w-100 justify-content-md-between">
+        <div class="d-md-flex justify-content-md-between">
           <p class="px-md-2 mt-1 mb-0 mt-md-4 mb-md-0 text-secondary">© 2021 NEWSWEEK DIGITAL LLC</p>
           <div class="mb-0 px-md-2 mt-1">
             <a class="px-2 text-decoration-none" href="https://web.archive.org/web/20210120125445/https://www.facebook.com/Newsweek">
@@ -1847,9 +1849,9 @@
         </div>
       </div>
       <div class="d-flex flex-wrap pt-2">
-        <ul class="d-flex list-unstyled">
-          <li class="ps-2 mb-1 fw-bold text-secondary">Editions:</li>
-          <li class="px-2 mb-1 text-secondary">
+        <ul class="d-flex list-unstyled flex-wrap">
+          <li class="mb-1 fw-bold text-secondary">Editions:</li>
+          <li class="ps-2 mb-1 text-secondary">
             <a class="links text-decoration-none" href="#">U.S. Edition</a>
           </li>
           <li class="d-sm-none d-md-block text-secondary"> | </li>
