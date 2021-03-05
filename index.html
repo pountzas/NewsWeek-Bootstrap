@@ -13,9 +13,9 @@
     <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
   </head>
   <body>
-    <header class="container">
-      <nav class="">
-        <div class="d-flex justify-content-lg-between align-items-end mx-lg-auto">
+    <header class="container-md">
+      <nav class="nav-bar-unique fixed-top bg-white">
+        <div class=" d-flex justify-content-lg-between align-items-end mx-lg-auto">
           <div class="d-lg-flex d-none float-start">
             <p class="pt-5 text-white text-nowrap ">Wed, Jan 20, 2021</p>
           </div>  
@@ -38,46 +38,48 @@
             <div><i class="d-lg-none fas fa-bars m-2 text-white-50 mb-4"></i></div>
           </div>
         </div>
-    
-        <ul class="list-unstyled bg-white text-nowrap fw-bold mt-2 d-none d-lg-flex justify-content-evenly">
-          <li class="border-end border-2 border-light px-1">
-            <a class="text-dark text-decoration-none" href="#">U.S.</a>
-          </li>
-          <li class="border-end border-2 border-light px-1">
-            <a class="text-dark text-decoration-none" href="#">World</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Business</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Tech & Science</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Culture</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Newsgeek</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Sports</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Health</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">The Debate</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Vantage</a>
-          </li>
-          <li class="border-end border-2 border-light ps-4">
-            <a class="text-dark text-decoration-none" href="#">Weather</a>
-          </li>
-          <li class="fw-normal">
-            <input class="" type="text" placeholder="Search">
-            <i class="fas fa-search"></i>
-          </li>
-        </ul>
+        
+        <div class="col-11 bg-white">
+          <ul class="list-unstyled bg-white text-nowrap fw-bold mt-2 d-none d-lg-flex justify-content-evenly">
+            <li class="border-end border-2 border-light ps-5">
+              <a class="text-dark text-decoration-none" href="#">U.S.</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">World</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Business</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Tech & Science</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Culture</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Newsgeek</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Sports</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Health</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">The Debate</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Vantage</a>
+            </li>
+            <li class="border-end border-2 border-light ps-2">
+              <a class="text-dark text-decoration-none" href="#">Weather</a>
+            </li>
+            <li class="fw-normal">
+              <input class="" type="text" placeholder="Search">
+              <i class="fas fa-search"></i>
+            </li>
+          </ul>
+        </div>
         
         <ul class="justify-content-evenly list-unstyled bg-white text-nowrap fw-bold p-2 border-top border-bottom border-2 border-light d-none d-lg-flex">
           <li>TRENDING</li>
@@ -92,7 +94,8 @@
       </nav>
     </header>
 
-    <main class="container">
+      
+    <main class="container-md">
       <section class="row">
         <section class="column1 col-12 col-md-5 col-lg-3 pt-2">
           <article class="top-story d-md-none">
@@ -928,7 +931,7 @@
                   <img class="float-start w-25 bg-danger m-2" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="newsweek icon">
                   <h3 class="fs-6 text-align-center pt-3">START YOUR DAY WITH OUR TOP 5 ARTICLES</h3>
                 </div>
-                <input class="w-100 mb-2" placeholder="Email address">
+                <input class="w-100 mb-2" type="email" placeholder="Email address">
                 <input class="w-100 bg-danger text-light" type="button" value="FREE SIGN UP >">
               </form>
             </article>
@@ -982,8 +985,8 @@
             </article>
           </section>
         </section>
-        <section class="d-none">
-          <div class="in-the-magazine row d-flex pt-4 pb-3">
+        <section class="">
+          <div class="row d-flex pt-4 pb-3">
             <div class="text-center d-flex justify-content-center border-md-bottom mx-2">
               <img class="img-small-logo bg-danger me-2" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="small-logo">
               <h2 class="fs-5 ">IN THE MAGAZINE</h2>
@@ -1017,7 +1020,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1035,7 +1038,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1053,7 +1056,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1071,7 +1074,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1089,7 +1092,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1107,7 +1110,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1125,7 +1128,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1133,7 +1136,7 @@
           </div>
         </section>
 
-        <section class="d-none">
+        <section class="">
           <div class="editors-pick row d-flex pt-4 pb-3">
             <div class="text-center d-flex justify-content-center border-md-bottom mx-2">
               <img class="img-small-logo bg-danger me-2" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="small-logo">
@@ -1152,7 +1155,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1170,7 +1173,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1188,7 +1191,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1206,7 +1209,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1224,7 +1227,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1242,7 +1245,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1260,7 +1263,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
@@ -1278,16 +1281,18 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <h3 class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
+                    <h3 class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</h3>
                   </a>
                 </div>
               </div>
             </article>
           </div>
         </section>
-        <section>
+        <section class="">
           <section class="border-top py-4">
-            <h4 class="text-danger">U.S.</h4>
+            <a class="text-decoration-none" href="#">
+              <h4 class="text-danger">U.S.</h4>
+            </a>
             <div class="d-flex col-12 row justify-content-md-between">
               <div class="col-12 col-md-4">
                 <div class="">
@@ -1297,7 +1302,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1309,7 +1314,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1322,7 +1327,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1334,7 +1339,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1346,7 +1351,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1354,7 +1359,9 @@
             </div>
           </section>
           <section class="border-top py-4">
-            <h4 class="text-danger">World</h4>
+            <a class="text-decoration-none" href="#">
+              <h4 class="text-danger">World</h4>
+            </a>
             <div class="d-flex col-12 row justify-content-md-between">
               <div class="col-12 col-md-4">
                 <div class="">
@@ -1364,7 +1371,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1376,7 +1383,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1389,7 +1396,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1401,7 +1408,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1413,7 +1420,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1421,7 +1428,9 @@
             </div>
           </section>
           <section class="border-top py-4">
-            <h4 class="text-danger">Business</h4>
+            <a class="text-decoration-none" href="#">
+              <h4 class="text-danger">Business</h4>
+            </a>
             <div class="d-flex col-12 row justify-content-md-between">
               <div class="col-12 col-md-4">
                 <div class="">
@@ -1431,7 +1440,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1443,7 +1452,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1456,7 +1465,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1468,7 +1477,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1480,7 +1489,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1488,7 +1497,9 @@
             </div>
           </section>
           <section class="border-top py-4">
-            <h4 class="text-danger">Tech & Science</h4>
+            <a class="text-decoration-none" href="#">
+              <h4 class="text-danger">Tech & Science</h4>
+            </a>
             <div class="d-flex col-12 row justify-content-md-between">
               <div class="col-12 col-md-4">
                 <div class="">
@@ -1498,7 +1509,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1510,7 +1521,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1523,7 +1534,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1535,7 +1546,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1547,7 +1558,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1555,7 +1566,9 @@
             </div>
           </section>
           <section class="border-top py-4">
-            <h4 class="text-danger">Culture</h4>
+            <a class="text-decoration-none" href="#">
+              <h4 class="text-danger">Culture</h4>
+            </a>
             <div class="d-flex col-12 row justify-content-md-between">
               <div class="col-12 col-md-4">
                 <div class="">
@@ -1565,7 +1578,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1577,7 +1590,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1590,7 +1603,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1602,7 +1615,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1614,7 +1627,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1622,7 +1635,9 @@
             </div>
           </section>
           <section class="border-top py-4">
-            <h4 class="text-danger">Sports</h4>
+            <a class="text-decoration-none" href="#">
+              <h4 class="text-danger">Sports</h4>
+            </a>
             <div class="d-flex col-12 row justify-content-md-between">
               <div class="col-12 col-md-4">
                 <div class="">
@@ -1632,7 +1647,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1644,7 +1659,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1657,7 +1672,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1669,7 +1684,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1681,7 +1696,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1689,7 +1704,9 @@
             </div>
           </section>
           <section class="border-top py-4">
-            <h4 class="text-danger">Newsweek Expert Forum</h4>
+            <a class="text-decoration-none" href="#">
+              <h4 class="text-danger">Newsweek Expert Forum</h4>
+            </a>
             <div class="d-flex col-12 row justify-content-md-between">
               <div class="col-12 col-md-4">
                 <div class="">
@@ -1699,7 +1716,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1711,7 +1728,7 @@
                 </div>
                 <div class="">
                   <a class="text-decoration-none text-dark" href="#">
-                    <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                    <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                   </a>
                 </div>
               </div>
@@ -1724,7 +1741,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1736,7 +1753,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1748,7 +1765,7 @@
                   </div>
                   <div class="col-8">
                     <a class="text-decoration-none text-dark" href="#">
-                      <p class="card-title px-2 fs-6">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
+                      <p class="card-title px-2 fs-6 fw-bold">FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way</p>
                     </a>
                   </div>
                 </div>
@@ -1756,13 +1773,51 @@
             </div>
           </section>
         </section>
+        <div class="sub-new d-md-flex flex-md-column mb-3">
+          <div class="col-md-12 d-lg-flex">
+            
+            <div class="d-md-flex flex-column col-lg-8">
+              <h3 class="text-danger fw-bold my-3 fs-6">SUBSCRIBE</h3>
+              <div class="col-12 col-lg-10 bg-light d-md-flex">
+                <div class="position-relative">
+                  <div class="text-center pt-4 ps-3">
+                    <img class="position-absolute ms-4 mt-4 " src="https://web.archive.org/web/20210122003009im_/https://d.newsweek.com/en/full/1704591/cover-january-22-2021.jpg?w=170&q=95&f=ee95940a99c02547a13c42e35dbfbc84" alt="previous-cover">
+                    <img class=" top-0" src="https://web.archive.org/web/20210115135144im_/https://d.newsweek.com/en/full/1700315/january-15-2021-cover.jpg?w=170&q=95&f=02cc1a3558f7d7b001baea3b926907e7" alt="last-cover">
+                  </div>
+                </div>
+                <div class="d-flex flex-column ps-5 pb-5 align-items-center align-items-md-start gu">
+                  <p class="pt-5 card-title pb-3 pe-md-3 fw-bold text-center text-md-start ">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
+                  <p class="text-center text-md-start pb-3">All Access + Weekly Delivery. <br>
+                    Choose A Membership That's Perfect for You!
+                  </p>
+                  <input class="w-50 text-uppercase bg-danger text-light fw-bold mb-4" type="button" value="subscribe">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-12 col-lg-2">
+              <h3 class="text-danger fw-bold my-3 fs-6">NEWSLETTER</h3>
+              <div class="d-md-flex">
+                <img class="newsletter-img" src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" alt="">
+                <div class="border p-4">
+                  <p class="pt-2 card-title px-2 fs-6 fw-bold text-center text-lg-start">THE STARTING 5</p>
+                  <p class="text-center text-lg-start">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                  <form class="d-flex flex-lg-column" action="/action" method="POST">
+                    <input class="w-100 mb-2" type="email" placeholder="Email address">
+                    <input class="w-100 h-75 bg-danger text-light" type="button" value="FREE SIGN UP >">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer class="px-2 py-2 pt-md-4 border-top container">
-      <div class="d-flex flex-column flex-md-row ps-2 pb-2 border-bottom">
+    <footer class="py-2 pt-md-4 border-top container-md">
+      <div class="d-flex flex-column flex-md-row  pb-2 border-bottom">
         <a href="#">
-          <svg class="footer-logo pl-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+          <svg class="footer-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
             <g>
               <path 
                 class="st0" 
@@ -1771,7 +1826,7 @@
             </g>
           </svg>
         </a>
-        <div class="d-md-flex w-100 justify-content-md-between">
+        <div class="d-md-flex justify-content-md-between">
           <p class="px-md-2 mt-1 mb-0 mt-md-4 mb-md-0 text-secondary">© 2021 NEWSWEEK DIGITAL LLC</p>
           <div class="mb-0 px-md-2 mt-1">
             <a class="px-2 text-decoration-none" href="https://web.archive.org/web/20210120125445/https://www.facebook.com/Newsweek">
@@ -1793,24 +1848,24 @@
         </div>
       </div>
       <div class="d-flex flex-wrap pt-2">
-        <ul class="d-flex list-unstyled">
-          <li class="ps-2 mb-1 fw-bold text-secondary">Editions:</li>
+        <ul class="d-flex list-unstyled flex-wrap">
+          <li class="mb-1 fw-bold text-secondary">Editions:</li>
           <li class="px-2 mb-1 text-secondary">
             <a class="links text-decoration-none" href="#">U.S. Edition</a>
           </li>
-          <li class="d-sm-none d-md-block text-secondary"> | </li>
+          <li class="d-none d-md-block text-secondary"> | </li>
           <li class="px-2 mb-1 text-secondary">
             <a class="links text-decoration-none" href="#">日本</a>
           </li>
-          <li class="d-sm-none d-md-block text-secondary"> | </li>
+          <li class="d-none d-md-block text-secondary"> | </li>
           <li class="px-2 mb-1 text-secondary">
             <a class="links text-decoration-none" href="#">Pakistan</a>
           </li>
-          <li class="d-sm-none d-md-block text-secondary"> | </li>
+          <li class="d-none d-md-block text-secondary"> | </li>
           <li class="px-2 mb-1 text-secondary">
             <a class="links text-decoration-none" href="#">Polska</a>
           </li>
-          <li class="d-sm-none d-md-block text-secondary"> | </li>
+          <li class="d-none d-md-block text-secondary"> | </li>
           <li class="px-2 mb-1 text-secondary">
             <a class="links text-decoration-none" href="#">România</a>
           </li>
@@ -1820,51 +1875,51 @@
         <li class="px-2 mb-1 text-secondary">
           <a class="links text-decoration-none" href="#">About US</a>
         </li>
-        <li class="d-sm-none d-md-block text-secondary"> | </li>
+        <li class="d-none d-md-block text-secondary"> | </li>
         <li class="px-2 mb-1 text-secondary">
           <a class="links text-decoration-none" href="#">Corrections</a>
         </li>
-        <li class="d-sm-none d-md-block text-secondary"> | </li>
+        <li class="d-none d-md-block text-secondary"> | </li>
         <li class="px-2 mb-1 text-secondary">
           <a class="links text-decoration-none" href="#">Contact Us</a>
         </li>
-        <li class="d-sm-none d-md-block text-secondary"> | </li>
+        <li class="d-none d-md-block text-secondary"> | </li>
         <li class="px-2 mb-1 text-secondary">
           <a class="links text-decoration-none" href="#">Editorial Guidelines</a>
         </li>
-        <li class="d-sm-none d-md-block text-secondary"> | </li>
+        <li class="d-none d-md-block text-secondary"> | </li>
         <li class="px-2 mb-1 text-secondary">
           <a class="links text-decoration-none" href="#">Advertise</a>
         </li>
-        <li class="d-sm-none d-md-block text-secondary"> | </li>
+        <li class="d-none d-md-block text-secondary"> | </li>
         <li class="px-2 mb-1 text-secondary">
           <a class="links text-decoration-none" href="#">Copyright</a>
         </li>
-        <li class="d-sm-none d-md-block text-secondary"> | </li>
+        <li class="d-none d-md-block text-secondary"> | </li>
         <li class="px-2 mb-1 text-secondary">
           <a class="links text-decoration-none" href="#">Terms & Conditions</a>
         </li>
-        <li class="d-sm-none d-md-block text-secondary"> | </li>
+        <li class="d-none d-md-block text-secondary"> | </li>
         <li class="px-2 mb-1 text-secondary">
           <a class="links text-decoration-none" href="#">Privacy Policy</a>
         </li>
-        <li class="d-sm-none d-md-block text-secondary"> | </li>
+        <li class="d-none d-md-block text-secondary"> | </li>
         <li class="px-2 mb-1 text-secondary">
           <a class="links text-decoration-none" href="#">Cookie Policy</a>
         </li>
-        <li class="d-sm-none d-md-block text-secondary"> | </li>
+        <li class="d-none d-md-block text-secondary"> | </li>
         <li class="px-2 mb-1 text-secondary">
           <a class="links text-decoration-none" href="#">Terms of Sale</a>
         </li>
-        <li class="d-sm-none d-md-block text-secondary"> | </li>
+        <li class="d-none d-md-block text-secondary"> | </li>
         <li class="px-2 mb-1 text-secondary">
           <a class="links text-decoration-none" href="#">Archive</a>
         </li>
-        <li class="d-sm-none d-md-block text-secondary"> | </li>
+        <li class="d-none d-md-block text-secondary"> | </li>
         <li class="px-2 mb-1 text-secondary">
           <a class="links text-decoration-none" href="#">Announcements</a>
         </li>
-        <li class="d-sm-none d-md-block text-secondary"> | </li>
+        <li class="d-none d-md-block text-secondary"> | </li>
       </ul>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
