@@ -3,7 +3,7 @@
 # Clone of Newsweek website using Bootstrap
 > This is a clone of the Newsweek archived by Webarchive. In this project we used bootstrap, flex, and fontawesome.
 
-![newsweek-screenshot](./newsweek-screenshot.png)
+![newsweek-screenshot](./project.png)
 
 ## Built With
 
