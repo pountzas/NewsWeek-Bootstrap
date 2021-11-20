@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@pountzas](https://github.com/pountzas)
 - Twitter: [@pountzas20](https://twitter.com/pountzas20)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nikos-pountzas-173ba4a8/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nikos-pountzas/)
 
 👤 **Arthur Borges**
 
