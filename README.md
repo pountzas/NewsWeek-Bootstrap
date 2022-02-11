@@ -1,7 +1,7 @@
 ## Project 3 Microverse
 
 # Clone of Newsweek website using Bootstrap
-> This is a clone of the Newsweek archived by Webarchive. In this project we used bootstrap, flex, and fontawesome.
+> This is a clone of the Newsweek archived by Webarchive. In this project we used bootstrap, flex, and fontawesome. We used this link as a [reference](https://web.archive.org/web/20210120125445/https://www.newsweek.com/)
 
 ![newsweek-screenshot](./project.png)
 
